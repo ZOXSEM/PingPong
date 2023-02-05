@@ -1,0 +1,25 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+body{
+   overflow: hidden;
+   background-color: black;
+}
+
+#right{
+    position: relative;
+    width: 30px;
+    height: 200px;
+    background-color: white;    
+    float: right;
+}
+
+#ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    float: center;
+}

@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    cursor: url('all/img/cursor.png'), pointer;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.btngm {
+    position: absolute;
+    left: 43%;
+    top: 60%;
+    transition: 0.09s;
+
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: black 0 5px 15px;
+    font-family: "Minecraft";
+}
+
+.btntr {
+    position: absolute;
+    left: 43%;
+    top: 75%;
+    transition: 0.09s;
+
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: black 0 5px 15px;
+    font-family: "Minecraft";
+}
+
+.piptitle{
+    position: absolute;
+    top: 10%;
+    left: 19.5%;
+
+    font-size: 1000%;
+    color: white;
+    z-index: 10;
+    font-family: "Minecraft";
+}
+
+.poptitle{
+    position: absolute;
+    top: 10%;
+    left: 50.5%;
+
+    font-size: 1000%;
+    color: black;
+    z-index: 10;
+    font-family: "Minecraft";
+}
+
+.how1{
+    position: absolute;
+    top: 75%;
+    left: 70%;
+
+    font-size: 100%;
+    color: black;
+    z-index: 10;
+    font-family: "Minecraft";
+}
+
+.how2{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+
+    font-size: 100%;
+    color: black;
+    z-index: 10;
+    font-family: "Minecraft";
+}
+
+@font-face { 
+    font-family: "Minecraft";
+    src: url("all/game/minecraft.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
